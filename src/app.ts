@@ -1,4 +1,4 @@
-import fastify from 'fastify'
+import { fastify } from 'fastify'
 import cookie from '@fastify/cookie'
 
 import { mealsRoute } from './routes/meals-routes'
